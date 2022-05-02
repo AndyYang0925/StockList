@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/bgColor">
+
+    <LinearLayout
+        android:id="@+id/ll_stock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/bgColor">
+
+        <TextView
+            android:id="@+id/tv_header_data_1"
+            android:layout_width="@dimen/table_view_cell_width"
+            android:layout_height="@dimen/table_view_cell_height"
+            android:gravity="center_vertical|end"
+            android:textColor="@color/white"
+            android:text="昨收價"/>
+
+        <TextView
+            android:id="@+id/tv_header_data_2"
+            android:layout_width="@dimen/table_view_cell_width"
+            android:layout_height="@dimen/table_view_cell_height"
+            android:gravity="center_vertical|end"
+            android:textColor="@color/white"
+            android:text="成交價"/>
+
+        <TextView
+            android:id="@+id/tv_header_data_3"
+            android:layout_width="@dimen/table_view_cell_width"
+            android:layout_height="@dimen/table_view_cell_height"
+            android:gravity="center_vertical|end"
+            android:textColor="@color/white"
+            android:text="漲跌"/>
+
+        <TextView
+            android:id="@+id/tv_header_data_4"
+            android:layout_width="@dimen/table_view_cell_width"
+            android:layout_height="@dimen/table_view_cell_height"
+            android:gravity="center_vertical|end"
+            android:textColor="@color/white"
+            android:text="幅度"/>
+
+        <TextView
+            android:id="@+id/tv_header_data_5"
+            android:layout_width="@dimen/table_view_cell_width"
+            android:layout_height="@dimen/table_view_cell_height"
+            android:gravity="center_vertical|end"
+            android:paddingEnd="5dp"
+            android:textColor="@color/white"
+            android:text="更新時間"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="@dimen/table_view_column_width"
+        android:layout_height="1dp"
+        android:layout_alignBottom="@+id/ll_stock"
+        android:background="@color/grey"/>
+
+</RelativeLayout>

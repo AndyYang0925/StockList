@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_bg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_stock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/bgColor">
+
+        <TextView
+            android:id="@+id/tv_cell_data_1"
+            android:layout_width="@dimen/table_view_cell_width"
+            android:layout_height="@dimen/table_view_cell_height"
+            android:gravity="center_vertical|end"
+            android:textColor="@color/stockWhiteColor" />
+
+        <TextView
+            android:id="@+id/tv_cell_data_2"
+            android:layout_width="@dimen/table_view_cell_width"
+            android:layout_height="@dimen/table_view_cell_height"
+            android:gravity="center_vertical|end"
+            android:textColor="@color/stockWhiteColor" />
+
+        <TextView
+            android:id="@+id/tv_cell_data_3"
+            android:layout_width="@dimen/table_view_cell_width"
+            android:layout_height="@dimen/table_view_cell_height"
+            android:gravity="center_vertical|end"
+            android:textColor="@color/stockWhiteColor" />
+
+        <TextView
+            android:id="@+id/tv_cell_data_4"
+            android:layout_width="@dimen/table_view_cell_width"
+            android:layout_height="@dimen/table_view_cell_height"
+            android:gravity="center_vertical|end"
+            android:textColor="@color/stockWhiteColor" />
+
+        <TextView
+            android:id="@+id/tv_cell_data_5"
+            android:layout_width="@dimen/table_view_cell_width"
+            android:layout_height="@dimen/table_view_cell_height"
+            android:gravity="center_vertical|end"
+            android:paddingEnd="5dp"
+            android:textColor="@color/stockWhiteColor" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="@dimen/table_view_column_width"
+        android:layout_height="1.5dp"
+        android:layout_alignBottom="@+id/ll_stock"
+        android:layout_marginBottom="10dp" />
+
+    <View
+        android:layout_width="@dimen/table_view_column_width"
+        android:layout_height="1dp"
+        android:layout_alignBottom="@+id/ll_stock"
+        android:background="@color/grey" />
+
+</RelativeLayout>

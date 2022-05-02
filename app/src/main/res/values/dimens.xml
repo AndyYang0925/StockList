@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="table_view_cell_height">60dp</dimen>
+    <dimen name="table_view_cell_width">100dp</dimen>
+
+    <dimen name="table_view_row_header_width">80dp</dimen>
+
+    <!-- Overriding the default values of the tableView -->
+    <dimen name="default_row_header_width">80dp</dimen>
+    <dimen name="default_column_header_height">60dp</dimen>
+
+    <dimen name="table_view_column_width">500dp</dimen>
+
+</resources>

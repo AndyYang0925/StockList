@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/table_view_row_header_width"
+    android:layout_height="@dimen/table_view_cell_height">
+
+    <TextView
+        android:id="@+id/tv_corner_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:background="@color/bgColor"
+        android:paddingStart="5dp"
+        android:textColor="@color/white"
+        android:text="股票名稱"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignBottom="@+id/tv_corner_data"
+        android:background="@color/grey"/>
+
+</RelativeLayout>
